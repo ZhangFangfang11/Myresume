@@ -1,0 +1,23 @@
+.fullPageFn{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+@color-white:#fff;
+.transitionFn(@property:all,@duration:1,@timing-function:linear,@delay:0s){
+  -webkit-transition: @arguments ;
+  -moz-transition: @arguments ;
+  -ms-transition: @arguments ;
+  -o-transition: @arguments ;
+  transition: @arguments ;
+}
+
+.animationFn(@name,@duration:1s,@timing-function: ease,@delay: 0s,@iteration-count: 1,@fill-mode: both){
+  -webkit-animation: @arguments;
+  -o-animation: @arguments;
+  animation: @arguments;;
+}
+.bcImage{
+  -webkit-background-size:100% 100%;
+  background-size:100% 100%;
+}

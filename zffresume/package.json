@@ -1,0 +1,15 @@
+{
+  "name": "zffresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "less":"lessc css/index.less  css/style.min.css -x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.2"
+  }
+}
